@@ -1,4 +1,3 @@
-// PH05 ROHAN GADGIL
 // matrix.hpp
 #pragma once
 #include <vector>
