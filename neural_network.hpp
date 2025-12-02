@@ -1,4 +1,3 @@
-// PH05 ROHAN GADGIL
 // neural_network.hpp
 #pragma once
 #include "matrix.hpp"
