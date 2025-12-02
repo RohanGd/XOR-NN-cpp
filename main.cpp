@@ -1,8 +1,7 @@
-// PH05 ROHAN GADGIL
+
 // main.cpp
 #include <iostream>
 #include "neural_network.hpp"
-// #include "matrix.hpp"
 #include <vector>
 #include <cstdio>
 
@@ -53,13 +52,6 @@ int main()
     }
 
     std::cout << "Training completed.\nNow testing the neural network.\nPrinting the predictions for the given inputs:\n\n";
-
-//     {
-//       std::ofstream outfile("OR_gate_model");
-//       boost::archive::text_oarchive archive(outfile);
-//       archive << nn;
-//    }
-    
 
     // testing the neural network
     for (std::vector<float> input : targetInputs)
